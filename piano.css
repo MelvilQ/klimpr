@@ -1,0 +1,25 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.bg {
+  background-image: url("piano.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#octave {
+  position: absolute;
+  bottom: 20px;
+  left: 30px;
+  color: white;
+  background-color: black;
+  border: 0;
+  width: 80px;
+  height: 30px;
+  padding: 4px 12px;
+}
